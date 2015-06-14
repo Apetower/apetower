@@ -1,9 +1,34 @@
 /*
+<<<<<<< HEAD
+	Aerial by HTML5 UP
+=======
 	Dopetrope by HTML5 UP
+>>>>>>> f0f6e1f590bd53e834482168ad2913f4b629d96d
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+<<<<<<< HEAD
+/* Header */
+
+	#header nav a {
+		position: relative;
+		border: solid 1px white;
+		border-radius: 100%;
+		-ms-behavior: url("css/ie/PIE.htc");
+	}
+
+		#header nav a:before {
+			border: 0;
+		}
+
+/* Footer */
+
+	#footer {
+		background-image: url("images/footer.png");
+		background-position: bottom left;
+		background-repeat: repeat-x;
+=======
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -40,4 +65,5 @@
 		background-position: auto;
 		background-size: contain;
 		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+>>>>>>> f0f6e1f590bd53e834482168ad2913f4b629d96d
 	}

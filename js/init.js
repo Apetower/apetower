@@ -1,14 +1,75 @@
 /*
+<<<<<<< HEAD
+	Aerial by HTML5 UP
+=======
 	Dopetrope by HTML5 UP
+>>>>>>> f0f6e1f590bd53e834482168ad2913f4b629d96d
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+<<<<<<< HEAD
+(function() {
+=======
 (function($) {
+>>>>>>> f0f6e1f590bd53e834482168ad2913f4b629d96d
 
 	skel.init({
 		reset: 'full',
 		breakpoints: {
+<<<<<<< HEAD
+			'global': { range: '*', href: 'css/style.css', viewport: { scalable: false } },
+			'wide': { range: '-1680', href: 'css/style-wide.css' },
+			'normal': { range: '-1280', href: 'css/style-normal.css' },
+			'mobile': { range: '-736', href: 'css/style-mobile.css' },
+			'mobilep': { range: '-480', href: 'css/style-mobilep.css' }
+		}
+	});
+
+	// Events (JS).
+		
+		// Remove "loading" class once the page has fully loaded.
+			window.onload = function() {
+				document.body.className = '';
+			}
+
+		// Prevent scrolling on touch.
+			window.ontouchmove = function() {
+				return false;
+			}
+
+		// Fix scroll position on orientation change.
+			window.onorientationchange = function() {
+				document.body.scrollTop = 0;
+			}
+
+	/*
+
+	// Events (jQuery).
+	// Aerial doesn't need jQuery, but if you're going to use it anyway remove the
+	// block of JS events above and use the jQuery-based ones below instead.
+
+		jQuery(window)
+
+			// Remove "loading" class once the page has fully loaded.
+				.on('load', function() {
+					jQuery('body').removeClass('loading');
+				})
+
+			// Prevent scrolling on touch.
+				.on('touchmove', function() {
+					return false;
+				})
+
+			// Fix scroll position on orientation change.
+				.on('orientationchange', function() {
+					jQuery('body').scrollTop(0);
+				});
+
+	*/
+
+})();
+=======
 			'global':	{ range: '*', href: 'css/style.css' },
 			'desktop':	{ range: '737-', href: 'css/style-desktop.css', containers: 1200, grid: { gutters: 50 } },
 			'1000px':	{ range: '737-1200', href: 'css/style-1000px.css', containers: 960, grid: { gutters: 25 }, viewport: { width: 1024 } },
@@ -76,3 +137,4 @@
 	});
 
 })(jQuery);
+>>>>>>> f0f6e1f590bd53e834482168ad2913f4b629d96d
