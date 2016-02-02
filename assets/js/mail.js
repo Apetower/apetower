@@ -2,6 +2,8 @@ $(function () {
 
     // Get the form.
     var form = $('#signup-form');
+    
+    var formMessages = $('#form-messages');
 
     // Get the email div.
     var email = $('#email').val();
