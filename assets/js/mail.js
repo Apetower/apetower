@@ -15,9 +15,6 @@ $(function () {
             e.preventDefault();
 
 
-
-
-
             // Submit the form using AJAX.
             $.ajax({
                     type: 'GET',
@@ -46,4 +43,3 @@ $(function () {
 
     });
 
-});
