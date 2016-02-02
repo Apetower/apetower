@@ -13,7 +13,7 @@ $(function () {
             // $('.input-btn').click(function(e) {
             // Stop the browser from submitting the form.
             e.preventDefault();
-
+console.log('email value: '+email);
 
             // Submit the form using AJAX.
             $.ajax({
