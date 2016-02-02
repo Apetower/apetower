@@ -4,7 +4,7 @@
     // Added input sanitizing to prevent injection
 
     // Only process POST reqeusts.
-    if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = filter_var(trim($_REQUEST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_REQUEST["message"]);
 
