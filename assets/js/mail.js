@@ -30,10 +30,11 @@ $(function () {
                     $(formMessages).addClass('success');
                     // display result
                     $(formMessages).text(response);
+                    // Clear the form.
+                    $('#email').val('');
                 });
 
-            // Clear the form.
-            $('#email').val('');
+
         })
         .fail(function (data) {
             // Make sure that the formMessages div has the 'error' class.
