@@ -40,6 +40,9 @@ console.log('email value: '+email);
 
 
                     })
+            
+// display result
+$(formMessages).text(response);    
                 });
 
     });
