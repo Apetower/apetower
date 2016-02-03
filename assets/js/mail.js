@@ -6,13 +6,14 @@ $(function () {
     var formMessages = $('#form-messages');
 
     // Get the email div.
-    var email = $('#email').val();
+    
 
     // Set up an event listener for the contact form.
     $(form).submit(function (e) {
             // $('.input-btn').click(function(e) {
             // Stop the browser from submitting the form.
             e.preventDefault();
+        var email = $('#email').val();
 console.log('email value: '+email);
 
             // Submit the form using AJAX.
